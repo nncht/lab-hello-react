@@ -4,8 +4,8 @@ import menu from "../images/menu-top-xs.png";
 function NavBar() {
   return (
     <nav>
-      <img src={logo} alt="logo" />
-      <img src={menu} alt="icon" />
+      <img src={logo} alt="Ironhack logo" />
+      <img src={menu} alt="menu" />
     </nav>
   );
 }
