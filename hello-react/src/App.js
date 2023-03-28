@@ -4,8 +4,9 @@ import NavBar from "./components/NavBar.js";
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <NavBar />
     </div>
   );
 }
+
 export default App;
