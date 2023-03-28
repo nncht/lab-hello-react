@@ -6,18 +6,26 @@ import icon4 from "../images/icon4.png";
 function Features() {
   return (
     <main>
-      <div className="row">
-        <div className="col-3">
-          <img src={icon1} alt="Declarative" />
+      <div className="row d-flex justify-content-center">
+        <div className="col-auto">
+          <div className="row">
+            <img src={icon1} alt="Declarative" />
+          </div>
         </div>
-        <div className="col-3">
-          <img src={icon2} alt="Components" />
+        <div className="col-auto">
+          <div className="row">
+            <img src={icon2} alt="Components" />
+          </div>
         </div>
-        <div className="col-3">
-          <img src={icon3} alt="Single-Way" />
+        <div className="col-auto">
+          <div className="row">
+            <img src={icon3} alt="Single-Way" />
+          </div>
         </div>
-        <div className="col-3">
-          <img src={icon4} alt="JSX" />
+        <div className="col-auto">
+          <div className="row">
+            <img src={icon4} alt="JSX" />
+          </div>
         </div>
       </div>
     </main>
